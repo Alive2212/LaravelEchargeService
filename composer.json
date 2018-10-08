@@ -1,7 +1,7 @@
 {
-    "name": "alive2212/laravelechargeservice",
-    "description": ":description",
-    "license": "license",
+    "name": "alive2212/laravel-echarge-service",
+    "description": "This is Rayanmehr laravel echarge service",
+    "license": "MIT",
     "authors": [
         {
             "name": "author name",
