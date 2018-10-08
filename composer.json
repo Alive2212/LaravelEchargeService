@@ -1,0 +1,41 @@
+{
+    "name": "alive2212/laravelechargeservice",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/alive2212/laravelechargeservice",
+    "keywords": ["Laravel", "LaravelEchargeService"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alive2212\\LaravelEchargeService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alive2212\\LaravelEchargeService\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alive2212\\LaravelEchargeService\\LaravelEchargeServiceServiceProvider"
+            ],
+            "aliases": {
+                "LaravelEchargeService": "Alive2212\\LaravelEchargeService\\Facades\\LaravelEchargeService"
+            }
+        }
+    }
+}
